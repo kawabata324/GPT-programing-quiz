@@ -16,7 +16,7 @@ export const Primary: Story = {
       content: 'pop',
       selected: false,
       onClick: () => console.log('pop'),
-    }
+    },
   },
 }
 
