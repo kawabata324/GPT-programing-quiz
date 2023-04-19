@@ -15,7 +15,7 @@ export const AnswerButton: React.FC<Props> = ({ answer }) => {
           color='teal'
           size='md'
           fullWidth
-          onClick={() => answer.onClick()}
+          onClick={() => onClick()}
         >
           <Text fz='md'>{label}</Text>
         </Button>
