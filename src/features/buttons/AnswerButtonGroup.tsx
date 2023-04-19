@@ -14,13 +14,7 @@ type Props = {
 export const AnswerButtonGroup: React.FC<Props> = ({ answers }) => (
   <Flex gap='sm' justify='center' align='center' direction='column'>
     {answers.map((answer) => (
-      <AnswerButton
-        key={answer.label}
-        label={answer.label}
-        selected={answer.selected}
-        content={answer.content}
-        onClick={answer.onClick}
-      />
+      <AnswerButton key={answer.label} answer={answer} />
     ))}
   </Flex>
 )
