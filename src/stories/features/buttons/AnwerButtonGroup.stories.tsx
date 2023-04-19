@@ -1,9 +1,12 @@
 import { Meta, StoryObj } from '@storybook/react'
 
-import { Answer, AnswerButtonGroup } from '@/features/buttons/AnswerButtonGroup'
+import {
+  Answer,
+  AnswerButtonGroup,
+} from '@/features/components/presentational/quiz/buttons/AnswerButtonGroup'
 
 export default {
-  title: 'features/buttons/AnswerButtonGroup',
+  title: 'features/components/presentational/buttons/AnswerButtonGroup',
   component: AnswerButtonGroup,
 } satisfies Meta<typeof AnswerButtonGroup>
 

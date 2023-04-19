@@ -1,6 +1,6 @@
 import { Box, Tooltip, Button, Text } from '@mantine/core'
 import React from 'react'
-import { Answer } from '@/features/buttons/AnswerButtonGroup'
+import { Answer } from '@/features/components/presentational/quiz/buttons/AnswerButtonGroup'
 
 type Props = {
   answer: Answer

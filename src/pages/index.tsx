@@ -1,4 +1,4 @@
-import { MarkdownRenderer } from '@/features/MarkdownRenderer'
+import { MarkdownRenderer } from '@/features/components/presentational/quiz/MarkdownRenderer'
 
 export default function Home() {
   return (

@@ -1,6 +1,6 @@
 import { Flex } from '@mantine/core'
 import React from 'react'
-import { AnswerButton } from '@/features/buttons/AnswerButton'
+import { AnswerButton } from '@/features/components/presentational/quiz/buttons/AnswerButton'
 
 export type Answer = {
   label: string

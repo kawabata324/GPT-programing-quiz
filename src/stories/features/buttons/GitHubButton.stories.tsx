@@ -1,9 +1,9 @@
 import { Meta, StoryObj } from '@storybook/react'
 
-import { GitHubButton } from '@/features/buttons/GitHubButton'
+import { GitHubButton } from '@/features/components/presentational/login/GitHubButton'
 
 export default {
-  title: 'features/buttons/GitHubButton',
+  title: 'features/components/presentational/buttons/GitHubButton',
   component: GitHubButton,
 } satisfies Meta<typeof GitHubButton>
 

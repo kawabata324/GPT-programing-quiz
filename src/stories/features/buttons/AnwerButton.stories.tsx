@@ -1,9 +1,9 @@
 import { Meta, StoryObj } from '@storybook/react'
 
-import { AnswerButton } from '@/features/buttons/AnswerButton'
+import { AnswerButton } from '@/features/components/presentational/quiz/buttons/AnswerButton'
 
 export default {
-  title: 'features/buttons/AnswerButton',
+  title: 'features/components/presentational/buttons/AnswerButton',
   component: AnswerButton,
 } satisfies Meta<typeof AnswerButton>
 
