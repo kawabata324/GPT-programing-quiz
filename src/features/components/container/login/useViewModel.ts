@@ -22,7 +22,7 @@ export const useViewModel = (): { state: State; action: Action } => {
     if (session) {
       router.replace(QUIZ_PATH)
     }
-  }, [router, session])
+  }, [router, session, QUIZ_PATH])
   return {
     state: {},
     action: {

@@ -1,4 +1,4 @@
-import { useSession, useSupabaseClient } from '@supabase/auth-helpers-react'
+import { useSession } from '@supabase/auth-helpers-react'
 import { useRouter } from 'next/navigation'
 import { useEffect } from 'react'
 import { PATH } from '@/constants/path'
@@ -16,7 +16,7 @@ export const useViewModel = (): { state: State; action: Action } => {
     if (!session) {
       router.replace(LOGIN_PATH)
     }
-  }, [router, session])
+  }, [router, session, LOGIN_PATH])
   return {
     state: {},
     action: {},
