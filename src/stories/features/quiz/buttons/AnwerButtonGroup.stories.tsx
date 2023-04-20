@@ -6,7 +6,7 @@ import {
 } from '@/features/components/presentational/quiz/buttons/AnswerButtonGroup'
 
 export default {
-  title: 'features/components/presentational/buttons/AnswerButtonGroup',
+  title: 'features/components/presentational/quiz/buttons/AnswerButtonGroup',
   component: AnswerButtonGroup,
 } satisfies Meta<typeof AnswerButtonGroup>
 

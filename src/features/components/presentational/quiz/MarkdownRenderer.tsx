@@ -1,5 +1,5 @@
 import React from 'react'
-import { useMarkdown } from '@/hooks/useMarkdown'
+import { useMarkdown } from '@/features/components/container/quiz/hooks/useMarkdown'
 
 type Props = {
   text: string

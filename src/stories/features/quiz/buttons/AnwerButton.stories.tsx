@@ -3,7 +3,7 @@ import { Meta, StoryObj } from '@storybook/react'
 import { AnswerButton } from '@/features/components/presentational/quiz/buttons/AnswerButton'
 
 export default {
-  title: 'features/components/presentational/buttons/AnswerButton',
+  title: 'features/components/presentational/quiz/buttons/AnswerButton',
   component: AnswerButton,
 } satisfies Meta<typeof AnswerButton>
 

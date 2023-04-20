@@ -2,6 +2,7 @@ import { useSession, useSupabaseClient } from '@supabase/auth-helpers-react'
 import { useRouter } from 'next/navigation'
 import { useEffect } from 'react'
 import { PATH } from '@/constants/path'
+import { Database } from '@/types/supabase'
 
 type State = {}
 
@@ -12,10 +13,10 @@ type Action = {
 export const useViewModel = (): { state: State; action: Action } => {
   const session = useSession()
   const router = useRouter()
-  const supabase = useSupabaseClient()
+  const supabase = useSupabaseClient<Database>()
   const { QUIZ_PATH } = PATH
-  const signInGitHub = () => {
-    supabase.auth.signInWithOAuth({ provider: 'github' })
+  const signInGitHub = async () => {
+    await supabase.auth.signInWithOAuth({ provider: 'github' })
   }
 
   useEffect(() => {
